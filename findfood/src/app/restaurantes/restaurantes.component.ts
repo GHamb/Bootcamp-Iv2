@@ -10,7 +10,7 @@ import { RestauranteComponent } from '../restaurante/restaurante.component';
   styleUrls: ['./restaurantes.component.scss']
 })
 export class RestaurantesComponent implements OnInit {
-
+  //coment
   toSearch: any = '';
   siglas: Array<any> = [];
 
@@ -67,7 +67,7 @@ export class RestaurantesComponent implements OnInit {
       }
     });
 
-    dialogRef.afterClosed().subscribe((data: any)=>{
+    dialogRef.afterClosed().subscribe((data: any) => {
       this.restaurantes.push(data);
     })
   }
